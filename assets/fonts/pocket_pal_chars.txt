@@ -1,0 +1,147 @@
+# Pocket Pal 16 px font inventory.
+#
+# One code point per line: U+XXXX, the character, then a comment column.
+# tools/gen_pocket_pal_font.py rasterizes exactly these code points and its
+# --check mode fails the static gate when a Pocket Pal source string needs a
+# code point that is missing here. Regenerate the font after editing this file.
+#
+# U+0020-U+007E: printable ASCII, used by Latin labels, digits, and punctuation.
+U+0020  ' '  # SPACE
+U+0021  '!'  # EXCLAMATION MARK
+U+0022  '"'  # QUOTATION MARK
+U+0023  '#'  # NUMBER SIGN
+U+0024  '$'  # DOLLAR SIGN
+U+0025  '%'  # PERCENT SIGN
+U+0026  '&'  # AMPERSAND
+U+0027  '''  # APOSTROPHE
+U+0028  '('  # LEFT PARENTHESIS
+U+0029  ')'  # RIGHT PARENTHESIS
+U+002A  '*'  # ASTERISK
+U+002B  '+'  # PLUS SIGN
+U+002C  ','  # COMMA
+U+002D  '-'  # HYPHEN-MINUS
+U+002E  '.'  # FULL STOP
+U+002F  '/'  # SOLIDUS
+U+0030  '0'  # DIGIT ZERO
+U+0031  '1'  # DIGIT ONE
+U+0032  '2'  # DIGIT TWO
+U+0033  '3'  # DIGIT THREE
+U+0034  '4'  # DIGIT FOUR
+U+0035  '5'  # DIGIT FIVE
+U+0036  '6'  # DIGIT SIX
+U+0037  '7'  # DIGIT SEVEN
+U+0038  '8'  # DIGIT EIGHT
+U+0039  '9'  # DIGIT NINE
+U+003A  ':'  # COLON
+U+003B  ';'  # SEMICOLON
+U+003C  '<'  # LESS-THAN SIGN
+U+003D  '='  # EQUALS SIGN
+U+003E  '>'  # GREATER-THAN SIGN
+U+003F  '?'  # QUESTION MARK
+U+0040  '@'  # COMMERCIAL AT
+U+0041  'A'  # LATIN CAPITAL LETTER A
+U+0042  'B'  # LATIN CAPITAL LETTER B
+U+0043  'C'  # LATIN CAPITAL LETTER C
+U+0044  'D'  # LATIN CAPITAL LETTER D
+U+0045  'E'  # LATIN CAPITAL LETTER E
+U+0046  'F'  # LATIN CAPITAL LETTER F
+U+0047  'G'  # LATIN CAPITAL LETTER G
+U+0048  'H'  # LATIN CAPITAL LETTER H
+U+0049  'I'  # LATIN CAPITAL LETTER I
+U+004A  'J'  # LATIN CAPITAL LETTER J
+U+004B  'K'  # LATIN CAPITAL LETTER K
+U+004C  'L'  # LATIN CAPITAL LETTER L
+U+004D  'M'  # LATIN CAPITAL LETTER M
+U+004E  'N'  # LATIN CAPITAL LETTER N
+U+004F  'O'  # LATIN CAPITAL LETTER O
+U+0050  'P'  # LATIN CAPITAL LETTER P
+U+0051  'Q'  # LATIN CAPITAL LETTER Q
+U+0052  'R'  # LATIN CAPITAL LETTER R
+U+0053  'S'  # LATIN CAPITAL LETTER S
+U+0054  'T'  # LATIN CAPITAL LETTER T
+U+0055  'U'  # LATIN CAPITAL LETTER U
+U+0056  'V'  # LATIN CAPITAL LETTER V
+U+0057  'W'  # LATIN CAPITAL LETTER W
+U+0058  'X'  # LATIN CAPITAL LETTER X
+U+0059  'Y'  # LATIN CAPITAL LETTER Y
+U+005A  'Z'  # LATIN CAPITAL LETTER Z
+U+005B  '['  # LEFT SQUARE BRACKET
+U+005C  '\'  # REVERSE SOLIDUS
+U+005D  ']'  # RIGHT SQUARE BRACKET
+U+005E  '^'  # CIRCUMFLEX ACCENT
+U+005F  '_'  # LOW LINE
+U+0060  '`'  # GRAVE ACCENT
+U+0061  'a'  # LATIN SMALL LETTER A
+U+0062  'b'  # LATIN SMALL LETTER B
+U+0063  'c'  # LATIN SMALL LETTER C
+U+0064  'd'  # LATIN SMALL LETTER D
+U+0065  'e'  # LATIN SMALL LETTER E
+U+0066  'f'  # LATIN SMALL LETTER F
+U+0067  'g'  # LATIN SMALL LETTER G
+U+0068  'h'  # LATIN SMALL LETTER H
+U+0069  'i'  # LATIN SMALL LETTER I
+U+006A  'j'  # LATIN SMALL LETTER J
+U+006B  'k'  # LATIN SMALL LETTER K
+U+006C  'l'  # LATIN SMALL LETTER L
+U+006D  'm'  # LATIN SMALL LETTER M
+U+006E  'n'  # LATIN SMALL LETTER N
+U+006F  'o'  # LATIN SMALL LETTER O
+U+0070  'p'  # LATIN SMALL LETTER P
+U+0071  'q'  # LATIN SMALL LETTER Q
+U+0072  'r'  # LATIN SMALL LETTER R
+U+0073  's'  # LATIN SMALL LETTER S
+U+0074  't'  # LATIN SMALL LETTER T
+U+0075  'u'  # LATIN SMALL LETTER U
+U+0076  'v'  # LATIN SMALL LETTER V
+U+0077  'w'  # LATIN SMALL LETTER W
+U+0078  'x'  # LATIN SMALL LETTER X
+U+0079  'y'  # LATIN SMALL LETTER Y
+U+007A  'z'  # LATIN SMALL LETTER Z
+U+007B  '{'  # LEFT CURLY BRACKET
+U+007C  '|'  # VERTICAL LINE
+U+007D  '}'  # RIGHT CURLY BRACKET
+U+007E  '~'  # TILDE
+
+# U+00B7: middle dot, the separator between inventory entries.
+U+00B7  '·'  # MIDDLE DOT
+
+# 37 CJK characters: the 35 unique characters of the Pocket Pal strings
+# inventory, plus U+4E00 and U+4E0B from the cooldown refusal, which the
+# product requirements list only inside the phrase.
+U+56E2  '团'  # tuan - pet name (Tuan Tuan)
+U+5582  '喂'  # wei - feed
+U+98DF  '食'  # shi - food (in the feed label)
+U+73A9  '玩'  # wan - play
+U+800D  '耍'  # shua - frolic (in the play label)
+U+4F11  '休'  # xiu - rest
+U+606F  '息'  # xi - rest (in the rest label)
+U+72B6  '状'  # zhuang - state
+U+6001  '态'  # tai - state (in the status label)
+U+9971  '饱'  # bao - full (fullness bar)
+U+5FC3  '心'  # xin - heart (mood bar)
+U+60C5  '情'  # qing - feeling (mood bar)
+U+7CBE  '精'  # jing - spirit (energy bar)
+U+529B  '力'  # li - strength (energy bar)
+U+7167  '照'  # zhao - care (care count)
+U+987E  '顾'  # gu - look after (care count)
+U+6B21  '次'  # ci - occurrence (care count)
+U+6570  '数'  # shu - number (care count)
+U+6211  '我'  # wo - I, me (hungry and play bubbles)
+U+997F  '饿'  # e - hungry
+U+4E86  '了'  # le - aspect particle
+U+966A  '陪'  # pei - accompany (play bubble)
+U+597D  '好'  # hao - good (yummy and happy reactions)
+U+7D2F  '累'  # lei - tired
+U+5403  '吃'  # chi - eat (yummy reaction)
+U+5F00  '开'  # kai - open (in happy reaction)
+U+8FD8  '还'  # hai - still (not-hungry refusal)
+U+4E0D  '不'  # bu - not
+U+592A  '太'  # tai - too (too-tired refusal)
+U+7A0D  '稍'  # shao - a little (cooldown refusal)
+U+7B49  '等'  # deng - wait
+U+4E00  '一'  # yi - one (in the cooldown refusal)
+U+4E0B  '下'  # xia - down (in the cooldown refusal)
+U+957F  '长'  # chang - long (long-press hint)
+U+6309  '按'  # an - press
+U+8FD4  '返'  # fan - return
+U+56DE  '回'  # hui - return (long-press-to-return hint)

@@ -1,0 +1,12 @@
+menu "Pocket Pal"
+
+config POCKET_PAL_TIME_SCALE
+    int "Active-time simulation multiplier"
+    range 1 120
+    default 1
+    help
+        Multiplies elapsed active time for development and hardware acceptance.
+        Keep this at 1 for normal play. Values such as 60 let appetite, mood,
+        energy, cooldowns, and the sad condition be exercised within minutes.
+
+endmenu
